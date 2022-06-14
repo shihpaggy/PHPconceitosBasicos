@@ -27,8 +27,10 @@ foreach($contasCorrentes as $cpf => $conta){
     exibeConta($conta);
 }
 echo "</ul>";*/
-
+// para exibir no servidor web integrado basta digitar no cmd
+//php -s localhost:8000
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
